@@ -1,40 +1,40 @@
-# You Don't Know JS
-# Preface
+# 你不知道JS
+# 前言
 
-I'm sure you noticed, but "JS" in the book series title is not an abbreviation for words used to curse about JavaScript, though cursing at the language's quirks is something we can probably all identify with!
+我相信你注意到了，但是，在这本书系列标题中的 “JS” 不是用来诅咒JavaScript的单词的缩写，尽管咒骂语言的怪癖是​​我们可能都认同的东西！
 
-From the earliest days of the web, JavaScript has been a foundational technology that drives interactive experience around the content we consume. While flickering mouse trails and annoying pop-up prompts may be where JavaScript started, nearly 2 decades later, the technology and capability of JavaScript has grown many orders of magnitude, and few doubt its importance at the heart of the world's most widely available software platform: the web.
+从网络的最初的日子开始，JavaScript一直是基于我们消费内容的互动体验的基础技术。尽管鼠标轨迹和令人讨厌的弹出提示可能是JavaScript开始的地方，近二十年后，JavaScript的技术和能力已经增长了许多数量级，并且很少将其重要性置于世界上最广泛使用的软件平台的核心位置：网络。
 
-But as a language, it has perpetually been a target for a great deal of criticism, owing partly to its heritage but even more to its design philosophy. Even the name evokes, as Brendan Eich once put it, "dumb kid brother" status next to its more mature older brother "Java". But the name is merely an accident of politics and marketing. The two languages are vastly different in many important ways. "JavaScript" is as related to "Java" as "Carnival" is to "Car".
+但作为一种语言，它一直是许多批评的目标，部分原因在于其遗产，但更符合其设计理念。就像布伦丹·艾希曾经说过的那样，这个名字叫起来，“笨兄弟” 的地位就在它更成熟的哥哥 “Java” 旁边。但这个名字只是政治和营销的一个意外。这两种语言在许多重要方面有很大的不同。 “JavaScript”与“Java”相关，因为 “Carnival” 是 “Car”。
 
-Because JavaScript borrows concepts and syntax idioms from several languages, including proud C-style procedural roots as well as subtle, less obvious Scheme/Lisp-style functional roots, it is exceedingly approachable to a broad audience of developers, even those with just little to no programming experience. The "Hello World" of JavaScript is so simple that the language is inviting and easy to get comfortable with in early exposure.
+因为JavaScript借用了几种语言的概念和语法习语，包括自豪的C风格的程序根源，以及微妙的，不太明显的Scheme / Lisp风格的功能根源，对于广泛的开发人员来说，甚至是极少的没有编程经验。 JavaScript的“Hello World”非常简单，语言在早期曝光时可以很方便地使用。
 
-While JavaScript is perhaps one of the easiest languages to get up and running with, its eccentricities make solid mastery of the language a vastly less common occurrence than in many other languages. Where it takes a pretty in-depth knowledge of a language like C or C++ to write a full-scale program, full-scale production JavaScript can, and often does, barely scratch the surface of what the language can do.
+尽管JavaScript可能是最简单的语言之一，但它的偏心使得语言的掌握程度远远低于许多其他语言。在如C或C ++这样的语言深入了解编写一个全面的程序的过程中，全面的生产JavaScript可以，通常也几乎不会划破语言的表面。
 
-Sophisticated concepts which are deeply rooted into the language tend instead to surface themselves in *seemingly* simplistic ways, such as passing around functions as callbacks, which encourages the JavaScript developer to just use the language as-is and not worry too much about what's going on under the hood.
+深刻植根于语言的复杂概念倾向于以看似简单的方式表达自己，例如将函数作为回调传递，这鼓励JavaScript开发人员仅仅使用语言，而不用担心过多的事情在引擎下。
 
-It is simultaneously a simple, easy-to-use language that has broad appeal, and a complex and nuanced collection of language mechanics which without careful study will elude *true understanding* even for the most seasoned of JavaScript developers.
+它同时是一种简单，易于使用的语言，具有广泛的吸引力，一个复杂而细微的语言力学系统，无需仔细的研究就能排除真正的理解，即使是最经验丰富的JavaScript开发人员。
 
-Therein lies the paradox of JavaScript, the Achilles' Heel of the language, the challenge we are presently addressing. Because JavaScript *can* be used without understanding, the understanding of the language is often never attained.
+其中就是JavaScript的悖论，语言的 Achilles 的脚跟，我们目前正在解决的挑战。因为JavaScript 可以在没有理解的情况下使用，所以对语言的理解往往是永远不会实现的。
 
-## Mission
+## 使命
 
-If at every point that you encounter a surprise or frustration in JavaScript, your response is to add it to the blacklist, as some are accustomed to doing, you soon will be relegated to a hollow shell of the richness of JavaScript.
+如果你在JavaScript中遇到惊喜或挫折的任何一点，您的回应是将其添加到黑名单中，因为有些人习惯于这样做，您很快就会被降级为丰富的JavaScript空洞的外壳。
 
-While this subset has been famously dubbed "The Good Parts", I would implore you, dear reader, to instead consider it the "The Easy Parts", "The Safe Parts", or even "The Incomplete Parts".
+虽然这个子集已经被称为“好零件”，但我会恳求你，亲爱的读者，而不是认为它是“易零件”，“安全部件”，甚至“不完整零件”。
 
-This *You Don't Know JavaScript* book series offers a contrary challenge: learn and deeply understand *all* of JavaScript, even and especially "The Tough Parts".
+这个 *You-Dont-Know-JS* 书系列提供了一个相反的挑战：学习和深入了解所有的JavaScript，甚至特别是“艰难的部分”。
 
-Here, we address head on the tendency of JS developers to learn "just enough" to get by, without ever forcing themselves to learn exactly how and why the language behaves the way it does. Furthermore, we eschew the common advice to *retreat* when the road gets rough.
+在这里，我们将介绍JS开发人员学习“足够”的趋势，而不用强迫自己学习如何以及为什么语言的行为方式。此外，当道路变得粗糙时，我们避免*撤退*的常见建议。
 
-I am not content, nor should you be, at stopping once something *just works*, and not really knowing *why*. I gently challenge you to journey down that bumpy "road less traveled" and embrace all that JavaScript is and can do. With that knowledge, no technique, no framework, no popular buzzword acronym of the week, will be beyond your understanding.
+我不满足，也不应该，一旦停止一些 *只是工作* ，而不是真的知道 *为什么*。我轻轻地挑战你，走过这个颠簸的“少路走”，并拥抱所有的JavaScript和可以做的。有了这个知识，没有技术，没有框架，没有流行的流行词本周的首字母缩略词，将超出你的理解。
 
-These books each take on specific core parts of the language which are most commonly misunderstood or under-understood, and dive very deep and exhaustively into them. You should come away from reading with a firm confidence in your understanding, not just of the theoretical, but the practical "what you need to know" bits.
+这些书每本书都采用最常被误解或不了解的语言的特定核心部分，并深入和深入地深入其中。你应该从阅读中脱颖而出，坚定地相信你的理解，而不仅仅是理论，而是实际的“你需要知道的”。
 
-The JavaScript you know *right now* is probably *parts* handed down to you by others who've been burned by incomplete understanding. *That* JavaScript is but a shadow of the true language. You don't *really* know JavaScript, *yet*, but if you dig into this series, you *will*. Read on, my friends. JavaScript awaits you.
+您现在知道的JavaScript 可能是*部分* 由不完整的理解烧毁的其他人传递给您。JavaScript只是真正语言的阴影。你不*真的*知道JavaScript， ，但如果你深入这个系列，你即将阅读它，我的朋友们。 JavaScript等待着你
 
-## Summary
+## 总结
 
-JavaScript is awesome. It's easy to learn partially, and much harder to learn completely (or even *sufficiently*). When developers encounter confusion, they usually blame the language instead of their lack of understanding. These books aim to fix that, inspiring a strong appreciation for the language you can now, and *should*, deeply *know*.
+JavaScript真棒这很容易学到部分，更难学到完全（甚至*足够*）。当开发人员遇到困惑时，他们通常会责怪这种语言，而是缺乏理解。这些书旨在解决这个问题，激发你对现在和将来应该深刻了解的语言的强烈理解。
 
-Note: Many of the examples in this book assume modern (and future-reaching) JavaScript engine environments, such as ES6. Some code may not work as described if run in older (pre-ES6) engines.
+注意：本书中的许多示例假设现代（以及将来到达）的JavaScript引擎环境，如ES6。如果在旧版（ES6前）引擎中运行，某些代码可能无法正常工作。
